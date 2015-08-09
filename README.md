@@ -3,18 +3,20 @@ a Short example of how to use Google Sheets as a back-end tool for a Unity3D pro
 
 ## How To Use?
 1. Clone the project using command line (or your favorite Git UI)
-> git clone git@github.com:simongri/GoogleSheetsBackEndExample.git
+> `git clone git@github.com:simongri/GoogleSheetsBackEndExample.git`
 
 1. Load the project using Unity3D (we've developed the example with Unity3d 4.6.2p2, but tested with Unity3D 5.0.2 as well)
 1. Run the project and watch the cube move from side to side
 1. On the _Cube_ game object there's a _Cube Mover_ script in which you can turn the _Load From Google_ property on and off to see the effects of the Google Sheet
+
 > You can see the Google Sheet the project is using [here](https://docs.google.com/spreadsheets/d/1lW-uec71bgVSEwJCiRjxjYD4E3PDs70MKbErxqWent0)
 
 ## How To Change The Parameters?
 1. Since the Google Sheet noted above is read-only, you have to make a copy of the document on your Google Drive
 1. Open your copy of the Google Sheets doc
 1. Note that the document's URL will look something like this:
-`https://docs.google.com/spreadsheets/d/<unique file identifier>/edit#gid=<unique sheet identifier>`
+> `https://docs.google.com/spreadsheets/d/<unique file identifier>/edit#gid=<unique sheet identifier>`
+
 1. Open the _GoogleSheetsLoader_ class in your editor
 1. In _GoogleSheetsLoader_ replace:
   1. _GoogleDriveFileGuid_ to your _unique file identifier_
