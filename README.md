@@ -3,7 +3,7 @@ a Short example of how to use Google Sheets as a back-end tool for a Unity3D pro
 
 ## How To Use?
 1. Clone the project using command line (or your favorite Git UI)
-> `git clone git@github.com:simongri/GoogleSheetsBackEndExample.git`
+> `git@github.com:JellyButtonGames/GoogleSheetsBackEndExample.git`
 
 1. Load the project using Unity3D (we've developed the example with Unity3d 4.6.2p2, but tested with Unity3D 5.0.2 as well)
 1. Run the project and watch the cube move from side to side
